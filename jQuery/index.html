@@ -1,0 +1,67 @@
+<html>
+<head>
+
+	<title>jQuery Practice</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+
+<style>
+  #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+  #sortable li span { position: absolute; margin-left: -1.3em; }
+  </style>
+  <script>
+  $(function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  });
+  </script>
+
+
+
+</head>
+
+<body>
+	
+	<div class="square"></div>
+	<div id="circle"> </div>
+	<div class="square"></div>
+
+	<p>This is our circle!</p>
+
+   	<div id="draggable" class= "ui-widget-content"> 
+		<p>Drag me around!</p>
+		<p>I'm also draggable</p>
+
+
+		
+
+	<ul id="sortable"> 	 
+  
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Pizza</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Candy</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Apple Pie</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Donuts</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Ice Cream</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Milk Shake</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Cake</li>
+</ul>
+<!--  -->
+
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+  <script type="text/javascript" src ="site.js"></script>
+
+
+
+
+
+</body>
+</html>

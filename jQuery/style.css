@@ -1,0 +1,16 @@
+#circle{
+height: 500px;
+width:500px;
+border-radius: 50%;
+background: green;
+display: inline-block;
+
+}
+
+.square{
+
+	height: 500px;
+	width: 500px;	
+	background: red;
+	display: inline-block;
+}
